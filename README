@@ -1,3 +1,8 @@
+XRSight
+=====
+
+XRSight is a hardware–software co-design framework for developing and characterizing extended reality (XR) workloads on embedded systems-on-chip (SoCs). XRSight is built on top of [Firesim](https://docs.fires.im/en/latest/index.html) (an FPGA-accelerated RTL simulator) and [ILLIXR](https://illixr.github.io/ILLIXR/latest/) (an XR software system testbed), bridging a realistic XR workload with RISC-V [Chipyard] (https://chipyard.readthedocs.io/en/latest/)-based SoCs. 
+
 While the XRSight repository is under development, please refer to the IISWC 2025 Artifact for instructions on setup and usage:
 
 https://github.com/pcg108/xrsight-iiswc-artifact 
