@@ -84,7 +84,7 @@ Then, we can boot the image with the following:
 
 The login is `root:firesim`. Run the following commands once logged in, to fix sudo access, disable some unnecessary services, and speed up the Firesim boot:
 
-Note that the following are all run in the interactive Qemu session from the Firemarshal launch!
+**Note that the following are all run in the interactive Qemu session from the Firemarshal launch!**
 
 ```
 pkexec chown root /etc/sudo.conf 
@@ -185,7 +185,7 @@ Install the Firemarshal workload: `./marshal -v install ubuntu-base.json`.
 
 ## Build Target SoC bitstream for Firesim
 
-Next, we need to build the sample SoC, which is a Rocket CPU with an attached FP32 Gemmini systolic array accelerator for VIO BLAS matmul acceleration. It also includes the infrastructure to enable the target-to-host graphics bridge,
+Next, we need to build the sample SoC, which is a Rocket CPU with an attached FP32 Gemmini systolic array accelerator for VIO BLAS matmul acceleration. It also includes the infrastructure to enable the target-to-host graphics bridge.
 
 ```
 cd xrsight-chipyard/sims/firesim
