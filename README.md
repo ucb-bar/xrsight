@@ -28,7 +28,6 @@ sudo apt-get install build-essential libglew-dev libglu1-mesa-dev libsqlite3-dev
 ```
 
 ```
-git clone https://github.com/pcg108/ILLIXR.git
 cd ILLIXR
 git checkout origin/host-worker
 mkdir build && cd build
@@ -55,7 +54,6 @@ The next step is to build the target workload.
 
 ### Setup Chipyard repository:
 ```
-git clone https://github.com/pcg108/xrsight-chipyard.git
 cd xrsight-chipyard
 ./build-setup.sh -s 4 
 ```
