@@ -1,6 +1,6 @@
 # XRSight-RTOS
 
-XRSight-RTOS brings an ILLIXR-based extended-reality workload to Zephyr RTOS and heterogeneous RISC-V SoCs. It connects sensor traces, pose estimation, rendering schedules, and eye inference to the processor, memory system, and accelerators executing it in cycle-accurate simulation. This is a major revision to [XRSight](https://github.com/ucb-bar/xrsight), which combines [ILLIXR](https://illixr.github.io/ILLIXR/), [Chipyard](https://chipyard.readthedocs.io/), and [FireSim](https://docs.fires.im/) for XR hardware/software co-design. See the [original IISWC 2025 paper](https://ieeexplore.ieee.org/document/11242088) for the project background.
+XRSight-RTOS brings an ILLIXR-based extended-reality workload to Zephyr RTOS and heterogeneous RISC-V SoCs. It connects sensor traces, pose estimation, rendering schedules, and eye inference to the processor, memory system, and accelerators executing it in cycle-accurate simulation. This is a major revision to [XRSight](https://github.com/ucb-bar/xrsight/tree/xrsight-1.0), which combines [ILLIXR](https://illixr.github.io/ILLIXR/), [Chipyard](https://chipyard.readthedocs.io/), and [FireSim](https://docs.fires.im/) for XR hardware/software co-design. See the [original IISWC 2025 paper](https://ieeexplore.ieee.org/document/11242088) for the project background.
 
 The runtime boots directly as a Zephyr ELF. Tested systems include single-, dual-, and quad-core Rocket, Saturn vector units for OpenBLAS operations, FP32 Gemmini for selected OpenBLAS operations, and INT8 Gemmini for RITnet eye inference. 
 
