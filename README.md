@@ -17,6 +17,7 @@ The current graphics stages model asynchronous GPU latency and publish **dummy i
 4. [Building the ELF](#building-the-elf)
 5. [Running on FireSim](#running-on-firesim)
 6. [Outputs and Analysis](#outputs-and-analysis)
+7. [Contributors](#contributors)
 
 ## Updates from XRSight 1.0
 
